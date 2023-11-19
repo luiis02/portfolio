@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="icon" href="../img/programar.png" type="image/png">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="proyect.html">Proyect</a></li>
+                <li><a id="especial" href="">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="typing-demo">
+          //About me education
+        </div>
+    </div>
+
+    <section class="text2">
+        <h1> DEGREE IN COMPUTER ENGINEERING (UGR) </h1>
+        <p> 2020 - Actualy || I would like to highlight the achievement of the >90th percentile in operating systems and
+            computer structures. And 9.8 in physical and technological fundamentals. Specializing in subjects such as
+            database administration, web programming and information systems engineering. For now my average grade is
+            6.62</p>
+    </section>
+
+
+    <section class="text2">
+        <h1> VI CONFERENCE ON BIOINFORMATICS (UGR) </h1>
+        <p> 2022 - 2022 || It consisted of attending some talks and taking a grade, in my case I chose python, where
+            they taught us how to predict and adjust models oriented to the field of health and biotechnology.</p>
+    </section>
+
+    <section class="text2">
+        <h1> MOOC: "MACHINE LEARNING AND BIG DATA FOR BIOINFORMATICS</h1>
+        <p> 2022 - 2022 || Spiritual continuation of the bioinformatics conference, where in a more theoretical way I
+            learned about regression techniques, classification, clustering, association rules, big data and a slight
+            introduction to KNIME.</p>
+    </section>
+
+    <section class="text2">
+        <h1> MOOC: "REPRESENTATION AND CODIFICATION</h1>
+        <p> 2022 - 2022 || I took this course thinking about receiving a short introduction to data management and
+            interpretation, because companies normally manage large amounts of data and must manage it efficiently. Here
+            I learned audio and data representation.</p>
+    </section>
+
+    <section class="text2">
+        <h1> MOOC: "INTERNET OF THING, IOT </h1>
+        <p> 2023 - 2023 || In order to understand how the Internet of Things works, the fields and challenges they face and how it can affect my work field, I took this course, which was an introduction to the IOT.</p>
+    </section>
+    <div class="frame">
+    <button class="custom-btn btn-15" id="downloadButton">👋 Download mi CV!</button>
+</div>
+
+    <section class="fin"></section>
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            var link = document.createElement('a');
+            link.href = 'curriculum_luis_alcalde_garcia.pdf';
+            link.download = 'curriculum_luis_alcalde_garcia.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+        </script>
+</body>
+
+</html>
